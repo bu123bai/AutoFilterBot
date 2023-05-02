@@ -11,7 +11,7 @@
       "file-index"
     ],
     "website": "https://github.com/Hansaka-Anuhas/AutoFilterBot",
-    "repository": "https://github.com/Hansaka-Anuhas/AutoFilterBot",
+    "repository": "https://github.com/bu123bai/AutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
