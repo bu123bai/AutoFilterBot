@@ -44,7 +44,7 @@ UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/SL_Bots_Updates')
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
-SHORTLINK = is_enabled((environ.get('SHORTLINK', "True")), True)
+SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), False)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
@@ -57,7 +57,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "✅ I Found: <code>{query}</code>\
 FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdisklink.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "5843c3cc645f5077b2200a2c77e0344879880b3e")
+SHORTLINK_API = environ.get("SHORTLINK_API", "0170eef799e9042e505929afe1d40796cb054892")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
                            
 # Log
